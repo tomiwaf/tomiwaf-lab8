@@ -1,5 +1,8 @@
 public class InvalidStopwordException  extends Exception {
+    public InvalidStopwordException(String message) {
+        super(message);
+    }
     public InvalidStopwordException() {
-        super("This file does not contain the stopword provided.");
+        super();
     }
 }
